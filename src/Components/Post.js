@@ -8,9 +8,11 @@ import "./Post.css";
 
 const Post = () => {
   const [posts, setPosts] = useState([]);
-
+  //"proxy":"https://instaclone-api-uyrk.onrender.com",
   const getData = async () => {
-    const res = await axios.get("/api/post");
+    const res = await axios.get(
+      "https://instaclone-api-uyrk.onrender.com/api/post"
+    );
     //console.log(res.data);
     setPosts(res.data);
   };
