@@ -41,12 +41,15 @@ const NewPost = () => {
 
   const post = async () => {
     try {
-      await axios.post("/api/post/new", {
-        image: picture,
-        name,
-        location,
-        description
-      });
+      await axios.post(
+        "https://instaclone-api-uyrk.onrender.com/api/post/new",
+        {
+          image: picture,
+          name,
+          location,
+          description
+        }
+      );
       alert("Post created successfully");
       console.log(name, location, description, picture);
       navigate("/post");
