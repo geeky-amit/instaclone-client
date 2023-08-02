@@ -10,8 +10,8 @@ const Landing = () => {
   };
   return (
     <div className="landing-container">
-      <div>
-        <img src={home} alt="home_image" />
+      <div className="img-container">
+        <img className="landing-img" src={home} alt="home_image" />
       </div>
       <div>
         <div className="text">10x Team 04</div>
