@@ -1,0 +1,27 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  justify-content: space-between;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.logo {
+  padding-top: 25px;
+  height: 64px;
+  width: 64px;
+}
+
+.cam {
+  padding-top: 36px;
+  height: 48px;
+  width: 48px;
+}
+
+.header-text {
+  font-size: 48px;
+  color: #006238;
+  padding-top: 25px;
+  padding-left: 15px;
+}

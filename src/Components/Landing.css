@@ -1,0 +1,29 @@
+.landing-container {
+  display: flex;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  gap: 126px;
+  margin-top: 80px;
+  margin-left: 400px;
+}
+
+img {
+  width: 400px;
+  height: 600px;
+}
+
+.text {
+  font-size: 42px;
+  margin-top: 220px;
+  color: #006238;
+}
+
+.btn {
+  margin-top: 38px;
+  height: 64px;
+  width: 128px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 3px solid #006238;
+  border-radius: 16px;
+  font-size: 28px;
+  color: #006238;
+}
